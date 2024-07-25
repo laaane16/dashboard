@@ -1,0 +1,16 @@
+body{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "a h h h h"
+    "a m m m m"
+    "a m m m m"
+    "a m m m m"
+    "a m m m m";
+  }
+}

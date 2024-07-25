@@ -1,0 +1,32 @@
+.header{
+  grid-area: h;
+  padding: 30px;
+  &__top{
+    height: 70px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .search-button{
+    height: 16px;
+  }
+  .user-account{
+    display: flex;
+  }
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .greeting-user__text{
+    font-size: 14px;
+  }
+  .profile-actions{
+    display: flex;
+    &__item:not(:last-child){
+      margin-right: 15px;
+    }
+  }
+
+}
+

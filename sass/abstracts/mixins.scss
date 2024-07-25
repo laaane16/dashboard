@@ -1,0 +1,10 @@
+@mixin font($font-name, $font-weight, $font-url-woff2, $font-url-woff) {
+  font-family: $font-name;
+  font-weight: $font-weight;
+  font-style: normal;
+  src: local($font-name), $font-url-woff2 format("woff2"),
+    $font-url-woff format("woff");
+}
+@mixin transition($value){
+  transition:.2s $value ease-in-out;
+}

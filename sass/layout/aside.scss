@@ -1,0 +1,25 @@
+.aside{
+  padding: 30px 50px;
+  grid-area: a;
+  background-color: scotch-color('accent');
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  &__logo{
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+  .logo__name{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  &__blocks{
+    margin-bottom: 75px;
+  }
+  .blocks__item:not(:last-child){
+    margin-bottom: 15px;
+  }
+  .settings__item:not(:last-child){
+    margin-bottom: 15px;
+  }
+}

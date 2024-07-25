@@ -1,0 +1,3 @@
+@function scotch-color($key: 'primary'){
+  @return map-get($scotch-colors , $key)
+}

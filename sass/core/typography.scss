@@ -1,0 +1,19 @@
+@font-face {
+  @include font('Montserrat',300,url(../../fonts/Montserrat-Light.woff2),url(../../fonts/Montserrat-Light.woff));
+}
+@font-face {
+  @include font('Montserrat',400,url(../../fonts/Montserrat-Regular.woff2),url(../../fonts/Montserrat-Regular.woff));
+}
+@font-face {
+  @include font('Montserrat',500,url(../../fonts/Montserrat-Medium.woff2),url(../../fonts/Montserrat-Medium.woff));
+}
+@font-face {
+  @include font('Montserrat',600,url(../../fonts/Montserrat-SemiBold.woff2),url(../../fonts/Montserrat-SemiBold.woff));
+}
+@font-face {
+  @include font('Montserrat',700,url(../../fonts/Montserrat-Black.woff2),url(../../fonts/Montserrat-Black.woff));
+}
+@font-face {
+  @include font('Montserrat',800,url(../../fonts/Montserrat-ExtraBold.woff2),url(../../fonts/Montserrat-ExtraBold.woff));
+}
+
